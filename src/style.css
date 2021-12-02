@@ -38,6 +38,19 @@ container{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#newProject{
+    color: #CEE5F2;
+    border: none;
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #7C98B3;
+    height: 100px;
+    text-align: left;
+    border-radius: 10px;
+}
+#newProject:hover{
+    background-color: #637081;
+}
 project-container{
     display: flex;
     width: 70%;

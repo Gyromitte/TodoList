@@ -14,8 +14,9 @@ function createStaticPage(){
     sideBar.innerText = "Projects";
     container.appendChild(sideBar);
 
-    const newProject = document.createElement('div');
+    const newProject = document.createElement('button');
     newProject.classList = "sideBarElement";
+    newProject.id = "newProject";
     newProject.innerText = "Add new Project +";
     sideBar.appendChild(newProject);
 
