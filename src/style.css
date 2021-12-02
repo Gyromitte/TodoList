@@ -32,6 +32,11 @@ content{
     width: 25%;
     text-align: left;
     padding: 30px;
+    color: #CEE5F2;
+}
+.sideBarElement{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 project-container{
     display: flex;
