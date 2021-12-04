@@ -56,6 +56,7 @@ project-container{
     width: 70%;
     padding: 25px;
     align-items: center;
+    margin: 20px;
 }
 project-window{
     display: flex;
@@ -67,12 +68,26 @@ project-window{
     align-items: center;
     padding: 20px;
 }
+#addNewTask{
+    color: #637081;
+    font-size: large;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #ACCBE1;
+    border-radius: 50px;
+}
+#addNewTask:hover{
+    background-color: #536b7881;
+    color: #ACCBE1;
+}
 .task{
     height: 20px;
     margin: 10px;
     width: 90%;
     color: #CEE5F2;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #637081;
     text-align: center;
     padding: 20px;

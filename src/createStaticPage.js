@@ -26,5 +26,11 @@ function createStaticPage(){
     const projectWindow = document.createElement('project-window');
     projectWindow.id = "projectWindow";
     projectContainer.appendChild(projectWindow);
+
+    const addNewTask = document.createElement('button');
+    addNewTask.id = "addNewTask";
+    addNewTask.innerText = "Add new task +"
+    projectWindow.appendChild(addNewTask);
+
 }
 export {createStaticPage};
