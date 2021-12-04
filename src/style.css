@@ -51,6 +51,7 @@ container{
 }
 #newProject:hover{
     background-color: #637081;
+    color: #ACCBE1;
 }
 project-container{
     display: flex;
