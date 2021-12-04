@@ -64,4 +64,14 @@ project-window{
     height: 100%;
     background-color: #536b7881;
     border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+}
+.task{
+    height: 20px;
+    color: #CEE5F2;
+    border-radius: 20px;
+    background-color: #637081;
+    text-align: center;
+    padding: 20px;
 }

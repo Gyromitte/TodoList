@@ -24,6 +24,7 @@ function createStaticPage(){
     container.appendChild(projectContainer);
 
     const projectWindow = document.createElement('project-window');
+    projectWindow.id = "projectWindow";
     projectContainer.appendChild(projectWindow);
 }
 export {createStaticPage};
