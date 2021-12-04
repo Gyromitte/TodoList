@@ -30,7 +30,7 @@ container{
     background-color: #7C98B3;
     font-size: 30px;
     width: 25%;
-    text-align: left;
+    text-align: center;
     padding: 30px;
     color: #CEE5F2;
 }
@@ -43,10 +43,11 @@ container{
     border: none;
     font-size: 30px;
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: #7C98B3;
+    background-color: #ACCBE1;
+    color: #637081;
     height: 100px;
-    text-align: left;
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 50px;
 }
 #newProject:hover{
     background-color: #637081;
