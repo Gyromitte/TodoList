@@ -73,7 +73,7 @@ project-window{
 #headerProjectWindow{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 97%;
     height: 70px;
 }
 #addNewTask{
