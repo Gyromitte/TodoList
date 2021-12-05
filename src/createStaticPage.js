@@ -27,10 +27,19 @@ function createStaticPage(){
     projectWindow.id = "projectWindow";
     projectContainer.appendChild(projectWindow);
 
+    const headerProjectWindow = document.createElement('div');
+    headerProjectWindow.id = "headerProjectWindow";
+    projectWindow.appendChild(headerProjectWindow);
+
     const addNewTask = document.createElement('button');
     addNewTask.id = "addNewTask";
     addNewTask.innerText = "Add new task +"
-    projectWindow.appendChild(addNewTask);
+    headerProjectWindow.appendChild(addNewTask);
+
+    const nameOfProject = document.createElement('button');
+    nameOfProject.id = "nameOfProject";
+    nameOfProject.innerText = "Loremp impsum";
+    headerProjectWindow.appendChild(nameOfProject);
 
 }
 export {createStaticPage};

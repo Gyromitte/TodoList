@@ -70,11 +70,17 @@ project-window{
     align-items: center;
     padding: 20px;
 }
+#headerProjectWindow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+}
 #addNewTask{
     color: #637081;
     font-size: large;
     margin: 10px;
-    width: 100%;
+    width: 30%;
     height: 50px;
     border: none;
     background-color: #ACCBE1;
@@ -93,4 +99,14 @@ project-window{
     background-color: #637081;
     text-align: center;
     padding: 20px;
+}
+#nameOfProject{
+    color: #637081;
+    font-size: large;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #ACCBE1;
+    border-radius: 50px;
+    border: none;
 }
