@@ -7,6 +7,7 @@ function createStaticPage(){
     content.appendChild(header);
 
     const container = document.createElement('container');
+    container.id = "container";
     content.appendChild(container);
 
     const sideBar = document.createElement('sideBar');
