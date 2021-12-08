@@ -1,6 +1,48 @@
 function createStaticPage(){
     const content = document.getElementById('content');
 
+    const modalNewProject = document.createElement('modal-newProject');
+    modalNewProject.classList = "modal";
+    content.appendChild(modalNewProject);
+
+    const newProjectModalContent = document.createElement('div');
+    newProjectModalContent.classList = "modal-content";
+    modalNewProject.appendChild(newProjectModalContent);
+
+    const newProjectForm = document.createElement('form');
+    newProjectModalContent.appendChild(newProjectForm);
+
+    const enterNameOfProject = document.createElement('label');
+    enterNameOfProject.for = "name";
+    enterNameOfProject.innerText = "Name your project:";
+    newProjectForm.appendChild(enterNameOfProject);
+
+    const br = document.createElement('br');
+    newProjectForm.appendChild(br);
+
+    const inputNameOfProject = document.createElement('input');
+    inputNameOfProject.id = "name";
+    inputNameOfProject.type = "text";
+    inputNameOfProject.required;
+    inputNameOfProject.maxLength = "50";
+    newProjectForm.appendChild(inputNameOfProject);
+
+    newProjectForm.appendChild(inputNameOfProject);
+
+    const submitButtonProject = document.createElement('button');
+    submitButtonProject.id = "submit-button";
+    submitButtonProject.type = "submit";
+    submitButtonProject.value = "Submit";
+    submitButtonProject.innerText = "Add project";
+    newProjectForm.appendChild(submitButtonProject);
+
+    const cancelButtonProject = document.createElement('button');
+    cancelButtonProject.id = "cancel-button";
+    cancelButtonProject.type = "button";
+    cancelButtonProject.innerText = "Cancel";
+    newProjectForm.appendChild(cancelButtonProject);
+
+
     const header = document.createElement('header');
     header.id = "header";
     header.innerText = "Todo List"
