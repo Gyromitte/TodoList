@@ -44,6 +44,27 @@ input{
     border-radius: 10px;
     border-color: #637081;
 }
+#submit-button{
+    font-family: 'Kumbh Sans', sans-serif;
+    border: none;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #CEE5F2;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #637081;
+}
+#cancel-button{
+    margin-left: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    border: none;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #CEE5F2;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #637081;
+}
 header{
     display: flex;
     background-color: #637081;
