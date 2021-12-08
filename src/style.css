@@ -45,8 +45,10 @@ form{
     justify-content: center;
 }
 input{
+    font-family: 'Kumbh Sans', sans-serif;;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
+    padding: 10px;
     border-color: #637081;
 }
 #submit-button{
