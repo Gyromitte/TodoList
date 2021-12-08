@@ -31,16 +31,21 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
     background-color: #ACCBE1;
 }
 form{
+    display: flex;
+    flex-direction: column;
     font-weight: bolder;
     font-size: 20px;
+    width: 400px;
     color: #637081;
+    justify-content: center;
 }
 input{
+    margin-top: 10px;
     border-radius: 10px;
     border-color: #637081;
 }
@@ -58,7 +63,7 @@ input{
     margin-left: auto;
     font-family: 'Kumbh Sans', sans-serif;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
     color: #CEE5F2;
     padding: 10px;
