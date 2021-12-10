@@ -28,8 +28,6 @@ function createStaticPage(){
     inputNameOfProject.maxLength = "50";
     newProjectForm.appendChild(inputNameOfProject);
 
-    //TODO
-    //Add functionality to cancel and add buttons
 
     newProjectForm.appendChild(inputNameOfProject);
 
@@ -44,6 +42,11 @@ function createStaticPage(){
     cancelButtonProject.id = "cancel-button";
     cancelButtonProject.type = "button";
     cancelButtonProject.innerText = "Cancel";
+
+    cancelButtonProject.addEventListener('click', e=>{
+        modalNewProject.style.display = "none";
+    });
+    
     newProjectForm.appendChild(cancelButtonProject);
 
 
@@ -69,7 +72,7 @@ function createStaticPage(){
     newProject.addEventListener('click', e=>{
         modalNewProject.style.display = "block";
     });
-    
+
     sideBar.appendChild(newProject);
 
     const projectContainer = document.createElement('project-container');
