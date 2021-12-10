@@ -3,6 +3,7 @@ function createStaticPage(){
 
     const modalNewProject = document.createElement('modal-newProject');
     modalNewProject.classList = "modal";
+    modalNewProject.style.display = "none";
     content.appendChild(modalNewProject);
 
     const newProjectModalContent = document.createElement('div');
@@ -26,6 +27,9 @@ function createStaticPage(){
     inputNameOfProject.required;
     inputNameOfProject.maxLength = "50";
     newProjectForm.appendChild(inputNameOfProject);
+
+    //TODO
+    //Add functionality to cancel and add buttons
 
     newProjectForm.appendChild(inputNameOfProject);
 
@@ -61,6 +65,11 @@ function createStaticPage(){
     newProject.classList = "sideBarElement";
     newProject.id = "newProject";
     newProject.innerText = "Add new Project +";
+
+    newProject.addEventListener('click', e=>{
+        modalNewProject.style.display = "block";
+    });
+    
     sideBar.appendChild(newProject);
 
     const projectContainer = document.createElement('project-container');
