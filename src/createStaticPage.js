@@ -1,15 +1,18 @@
 function createStaticPage(){
     const content = document.getElementById('content');
 
+    //Modal background
     const modalNewProject = document.createElement('modal-newProject');
     modalNewProject.classList = "modal";
     modalNewProject.style.display = "none";
     content.appendChild(modalNewProject);
 
+    //Modal container
     const newProjectModalContent = document.createElement('div');
     newProjectModalContent.classList = "modal-content";
     modalNewProject.appendChild(newProjectModalContent);
 
+    //Modal content
     const newProjectForm = document.createElement('form');
     newProjectModalContent.appendChild(newProjectForm);
 
@@ -46,19 +49,21 @@ function createStaticPage(){
     cancelButtonProject.addEventListener('click', e=>{
         modalNewProject.style.display = "none";
     });
-    
+
     newProjectForm.appendChild(cancelButtonProject);
 
-
+    //Header of the page
     const header = document.createElement('header');
     header.id = "header";
     header.innerText = "Todo List"
     content.appendChild(header);
 
+    //Rest of the page below the header
     const container = document.createElement('container');
     container.id = "container";
     content.appendChild(container);
 
+    //Side bar
     const sideBar = document.createElement('sideBar');
     sideBar.id = "sideBar";
     sideBar.innerText = "Projects";
@@ -75,6 +80,7 @@ function createStaticPage(){
 
     sideBar.appendChild(newProject);
 
+    //Project window
     const projectContainer = document.createElement('project-container');
     container.appendChild(projectContainer);
 
