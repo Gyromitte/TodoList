@@ -61,6 +61,9 @@ input{
     border-radius: 30px;
     background-color: #637081;
 }
+#submit-button:hover{
+    background-color: #47515e;
+}
 #cancel-button{
     margin-left: auto;
     font-family: 'Kumbh Sans', sans-serif;
@@ -71,6 +74,9 @@ input{
     padding: 10px;
     border-radius: 30px;
     background-color: #637081;
+}
+#cancel-button:hover{
+    background-color: #47515e;
 }
 header{
     display: flex;
