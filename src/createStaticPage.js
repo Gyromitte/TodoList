@@ -48,6 +48,7 @@ function createStaticPage(){
 
     cancelButtonProject.addEventListener('click', e=>{
         modalNewProject.style.display = "none";
+        inputNameOfProject.value = "";
     });
 
     newProjectForm.appendChild(cancelButtonProject);
