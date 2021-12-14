@@ -113,6 +113,10 @@ header{
     background-color: #637081;
     border-radius: 30px;
 }
+.projectListElement:hover{
+    background-color: #ACCBE1;
+    color: #637081;
+}
 #newProject{
     color: #CEE5F2;
     border: none;
