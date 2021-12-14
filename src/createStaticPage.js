@@ -74,12 +74,19 @@ function createStaticPage(){
     newProject.classList = "sideBarElement";
     newProject.id = "newProject";
     newProject.innerText = "Add new Project +";
-
     newProject.addEventListener('click', e=>{
         modalNewProject.style.display = "block";
     });
 
     sideBar.appendChild(newProject);
+
+    const projectListElement = document.createElement('button');
+    projectListElement.classList = "sideBarElement projectListElement";
+    projectListElement.innerText = "Default";
+    sideBar.appendChild(projectListElement);
+
+
+
 
     //Project window
     const projectContainer = document.createElement('project-container');
