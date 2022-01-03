@@ -85,9 +85,6 @@ function createStaticPage(){
     projectListElement.innerText = "Default";
     sideBar.appendChild(projectListElement);
 
-
-
-
     //Project window
     const projectContainer = document.createElement('project-container');
     container.appendChild(projectContainer);
