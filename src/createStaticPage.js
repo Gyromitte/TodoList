@@ -5,6 +5,7 @@ function createStaticPage(){
     const modalNewProject = document.createElement('modal-newProject');
     modalNewProject.classList = "modal";
     modalNewProject.style.display = "none";
+    modalNewProject.id = "modalNewProject";
     content.appendChild(modalNewProject);
 
     //Modal container
@@ -50,6 +51,7 @@ function createStaticPage(){
         modalNewProject.style.display = "none";
         inputNameOfProject.value = "";
     });
+
 
     newProjectForm.appendChild(cancelButtonProject);
 

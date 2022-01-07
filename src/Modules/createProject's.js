@@ -11,12 +11,17 @@ function createProject(){
 
     }
 
+    const inputNameOfProject = document.getElementById('name');
+    const modalNewProject = document.getElementById('modalNewProject');
+
     const submitButtonProject = document.getElementById('submit-button');
     submitButtonProject.addEventListener('click', e=>{
         event.preventDefault();
         let name = document.getElementById('name').value;
         new createNewProject(name);
-        
+
+        modalNewProject.style.display = "none";
+        inputNameOfProject.value = "";
     });
 
 }
