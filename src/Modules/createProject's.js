@@ -5,9 +5,14 @@ function createProject(){
         console.log("I was clicked");
     });
 
+    let listOfProjects = [];
     function createNewProject(name){
         this.name = name;
         console.log(name);
+
+        
+        listOfProjects.push(name);
+        console.log(listOfProjects);
 
     }
 
