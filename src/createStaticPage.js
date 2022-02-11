@@ -29,7 +29,7 @@ function createStaticPage(){
     inputNameOfProject.id = "name";
     inputNameOfProject.type = "tqext";
     inputNameOfProject.required;
-    inputNameOfProject.maxLength = "50";
+    inputNameOfProject.maxLength = "15";
     newProjectForm.appendChild(inputNameOfProject);
 
 
