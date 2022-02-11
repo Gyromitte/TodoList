@@ -27,7 +27,7 @@ function createStaticPage(){
 
     const inputNameOfProject = document.createElement('input');
     inputNameOfProject.id = "name";
-    inputNameOfProject.type = "text";
+    inputNameOfProject.type = "tqext";
     inputNameOfProject.required;
     inputNameOfProject.maxLength = "50";
     newProjectForm.appendChild(inputNameOfProject);

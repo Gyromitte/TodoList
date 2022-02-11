@@ -5,14 +5,21 @@ function createProject(){
         console.log("I was clicked");
     });
 
+    const sideBar = document.getElementById('sideBar');
+
     let listOfProjects = [];
     function createNewProject(name){
         this.name = name;
         console.log(name);
 
-        
         listOfProjects.push(name);
         console.log(listOfProjects);
+
+        let projectElement = document.createElement('button');
+        projectElement.classList.add('projectListElement');
+        projectElement.innerText = name;
+        sideBar.appendChild(projectElement);
+        
 
     }
 
